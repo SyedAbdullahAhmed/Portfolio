@@ -32,22 +32,22 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.5)}
           className="flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto"
         >
+          {/*  Experiences: Showcasing Expertise in Web Development */}
           <span>
-            Providing
+          Elevating Project
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
               {" "}
-              the best{" "}
+              Expertise in{" "}
             </span>
-            project exprience
+            Web Development
           </span>
         </motion.div>
 
         <motion.p
           variants={slideInFromLeft(0.8)}
-          className="text-lg text-gray-400 my-5 max-w-[600px]"
+          className="text-lg text-justify text-gray-400 my-5 max-w-[600px]"
         >
-          I&apos;m a Full Stack Software Engineer with experience in Website,
-          Mobile, and Software development. Check out my projects and skills.
+          I am a seasoned Full Stack Software Engineer with a robust portfolio spanning diverse web development projects, showcasing my proficiency in both frontend and backend technologies. With a focus on innovation and user experience, I bring a wealth of experience and a passion for continuous learning to every project.
         </motion.p>
         <motion.a
           variants={slideInFromLeft(1)}
